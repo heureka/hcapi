@@ -1,0 +1,16 @@
+{
+  "name": "heureka/hcapi",
+  "description": "Heureka shopping cart API",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.*",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hcapi\\": "./src"
+    }
+  }
+}
